@@ -349,9 +349,9 @@ def interactive_setup(platform_name: str) -> dict:
     except (EOFError, KeyboardInterrupt):
         print("\n[ERROR] Interactive setup failed (no terminal input available).")
         print("For container/non-interactive environments, set these environment variables:")
-        print("  BOT_TOKEN=8438931211:AAHdMgarpsquvS40nCR12x-iYWFJ4WhDK8g")
+        print("  BOT_TOKEN=add your bot token")
         print("  BOT_MODE=multi (or 'admin' for admin-only mode)")
-        print("  ADMIN_IDS=7714502479 ")#comma-separated, required for admin mode
+        print("  ADMIN_IDS=your telegram id ")#comma-separated, required for admin mode
         print("  POLL_INTERVAL=5 (optional, defaults to 5 seconds)")
         sys.exit(1)
 
